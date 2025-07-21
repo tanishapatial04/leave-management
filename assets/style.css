@@ -1,0 +1,49 @@
+.elm-leave-form {
+    max-width: 500px;
+    box-shadow: 0 4px 16px rgba(17, 17, 26, .05), 0 8px 32px rgba(17, 17, 26, .05);
+    border: none;
+    padding: 60px;
+    border-radius: 8px;
+    background: #fff;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.elm-leave-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.elm-leave-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+.elm-leave-form input[type="date"],
+.elm-leave-form textarea, select#leave_type {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.elm-leave-form input[type="submit"] {
+    background: #475bb2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 26px;
+    border: 1px solid #ccc;
+}
+
+#elm-leave-requests-table {
+    margin-bottom: 20px;
+}
